@@ -1,0 +1,1034 @@
+2024-11-18 16:05:17,430 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:05:17,432 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:05:17,471 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:05:17,472 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:05:18,473 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:05:18,473 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:05:22,906 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:05:23,384 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:05:24,352 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:05:27,597 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:05:27,597 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:05:27,600 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:09:06,130 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:09:06,130 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:09:27,784 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:09:32,629 - idrac_controller - DEBUG - Attempting to set fan speed: 100% (Raw value: 255)
+2024-11-18 16:09:32,629 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 255]
+2024-11-18 16:09:32,632 - idrac_controller - INFO - Successfully set fan speed to 100%
+2024-11-18 16:09:50,051 - idrac_controller - DEBUG - Attempting to set fan speed: 39% (Raw value: 99)
+2024-11-18 16:09:50,051 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 99]
+2024-11-18 16:09:50,059 - idrac_controller - INFO - Successfully set fan speed to 39%
+2024-11-18 16:10:04,299 - idrac_controller - DEBUG - Attempting to set fan speed: 39% (Raw value: 99)
+2024-11-18 16:10:04,299 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 99]
+2024-11-18 16:10:04,303 - idrac_controller - INFO - Successfully set fan speed to 39%
+2024-11-18 16:10:17,305 - idrac_controller - DEBUG - Attempting to set fan speed: 31% (Raw value: 79)
+2024-11-18 16:10:17,306 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 79]
+2024-11-18 16:10:17,309 - idrac_controller - INFO - Successfully set fan speed to 31%
+2024-11-18 16:10:33,404 - idrac_controller - DEBUG - Attempting to set fan speed: 26% (Raw value: 66)
+2024-11-18 16:10:33,404 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 66]
+2024-11-18 16:10:33,443 - idrac_controller - INFO - Successfully set fan speed to 26%
+2024-11-18 16:11:15,358 - idrac_controller - DEBUG - Attempting to set fan speed: 20% (Raw value: 51)
+2024-11-18 16:11:15,358 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 51]
+2024-11-18 16:11:15,368 - idrac_controller - INFO - Successfully set fan speed to 20%
+2024-11-18 16:11:26,852 - idrac_controller - DEBUG - Attempting to set fan speed: 30% (Raw value: 76)
+2024-11-18 16:11:26,852 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 76]
+2024-11-18 16:11:26,856 - idrac_controller - INFO - Successfully set fan speed to 30%
+2024-11-18 16:11:42,956 - idrac_controller - DEBUG - Attempting to set fan speed: 100% (Raw value: 255)
+2024-11-18 16:11:42,956 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 255]
+2024-11-18 16:11:42,959 - idrac_controller - INFO - Successfully set fan speed to 100%
+2024-11-18 16:12:18,703 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:12:18,704 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:13:14,009 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:13:14,010 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:13:14,108 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:13:14,108 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:13:18,039 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:13:18,040 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:13:20,747 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:13:21,482 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8284
+2024-11-18 16:13:21,999 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:13:31,628 - idrac_controller - DEBUG - Attempting to set fan speed: 20% (Raw value: 51)
+2024-11-18 16:13:31,628 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 51]
+2024-11-18 16:13:31,632 - idrac_controller - INFO - Successfully set fan speed to 20%
+2024-11-18 16:13:46,221 - idrac_controller - DEBUG - Attempting to set fan speed: 25% (Raw value: 63)
+2024-11-18 16:13:46,221 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 63]
+2024-11-18 16:13:46,225 - idrac_controller - INFO - Successfully set fan speed to 25%
+2024-11-18 16:14:13,740 - idrac_controller - DEBUG - Attempting to set fan speed: 20% (Raw value: 51)
+2024-11-18 16:14:13,740 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 51]
+2024-11-18 16:14:13,744 - idrac_controller - INFO - Successfully set fan speed to 20%
+2024-11-18 16:16:45,908 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:16:45,909 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:16:45,977 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:16:45,978 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:16:48,604 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:16:48,605 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:16:50,693 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:16:51,545 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:16:52,111 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:16:57,615 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:16:58,140 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:16:58,940 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:16:58,944 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:16:58,944 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:16:58,948 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:17:03,369 - idrac_controller - DEBUG - Attempting to set fan speed: 100% (Raw value: 255)
+2024-11-18 16:17:03,369 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 255]
+2024-11-18 16:17:03,372 - idrac_controller - INFO - Successfully set fan speed to 100%
+2024-11-18 16:17:04,838 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:05,513 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:06,131 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:13,117 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:14,704 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:15,441 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:20,878 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:21,459 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:22,001 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:27,490 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:28,522 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:30,129 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:34,798 - idrac_controller - DEBUG - Attempting to set fan speed: 92% (Raw value: 234)
+2024-11-18 16:17:34,798 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 234]
+2024-11-18 16:17:34,804 - idrac_controller - INFO - Successfully set fan speed to 92%
+2024-11-18 16:17:36,321 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:38,619 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:41,667 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6959
+2024-11-18 16:17:43,554 - idrac_controller - DEBUG - Attempting to enable auto fan control mode
+2024-11-18 16:17:43,554 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x01]
+2024-11-18 16:17:43,559 - idrac_controller - INFO - Successfully enabled auto fan control mode
+2024-11-18 16:17:47,205 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:47,872 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:48,477 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:51,774 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:17:51,774 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:17:51,778 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:17:53,934 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:17:54,823 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:17:55,691 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:17:59,173 - idrac_controller - DEBUG - Attempting to set fan speed: 92% (Raw value: 234)
+2024-11-18 16:17:59,173 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 234]
+2024-11-18 16:17:59,176 - idrac_controller - INFO - Successfully set fan speed to 92%
+2024-11-18 16:18:01,236 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:01,813 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:02,452 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:08,576 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:09,109 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:09,977 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:15,418 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:15,969 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:16,677 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:22,081 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:22,668 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:23,209 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:29,036 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:30,664 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:33,088 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:39,305 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:41,321 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:43,043 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:43,048 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:18:43,048 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:18:43,051 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:18:48,533 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:49,311 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:50,678 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:18:54,838 - idrac_controller - DEBUG - Attempting to set fan speed: 50% (Raw value: 127)
+2024-11-18 16:18:54,838 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 127]
+2024-11-18 16:18:54,854 - idrac_controller - INFO - Successfully set fan speed to 50%
+2024-11-18 16:18:56,101 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:18:56,811 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:18:57,337 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:19:02,769 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:19:03,544 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:19:04,097 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:19:07,289 - idrac_controller - DEBUG - Attempting to enable auto fan control mode
+2024-11-18 16:19:07,289 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x01]
+2024-11-18 16:19:07,293 - idrac_controller - INFO - Successfully enabled auto fan control mode
+2024-11-18 16:19:09,600 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:19:10,786 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:19:11,306 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:24:18,992 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:24:18,993 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:24:19,009 - idrac_controller - ERROR - Failed to connect: connect() takes 1 positional argument but 4 were given
+2024-11-18 16:24:19,010 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 333, in connect
+    if self.idrac.connect(host, username, password):
+TypeError: connect() takes 1 positional argument but 4 were given
+
+2024-11-18 16:24:46,782 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:24:46,782 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:24:46,926 - idrac_controller - ERROR - Failed to connect: connect() takes 1 positional argument but 4 were given
+2024-11-18 16:24:46,926 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 317, in connect
+    if self.idrac.connect(host, username, password):
+TypeError: connect() takes 1 positional argument but 4 were given
+
+2024-11-18 16:31:21,877 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:31:21,877 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:31:21,894 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:31:21,894 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:31:22,949 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:31:22,950 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:31:25,597 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:31:26,208 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:31:26,863 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:31:32,696 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:31:34,210 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:31:37,964 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:31:38,039 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:31:38,040 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:31:38,047 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:31:44,563 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:31:46,744 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:31:48,503 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:31:53,983 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:31:54,474 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:31:55,346 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:00,874 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:01,355 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:02,509 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:08,010 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:08,612 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:09,212 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:10,573 - idrac_controller - DEBUG - Attempting to set fan speed: 53% (Raw value: 135)
+2024-11-18 16:32:10,573 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 135]
+2024-11-18 16:32:10,578 - idrac_controller - INFO - Successfully set fan speed to 53%
+2024-11-18 16:32:14,618 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:15,572 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:16,121 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:21,587 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:22,230 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:22,872 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:30,640 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:33,198 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:34,362 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:40,812 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:42,549 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:44,294 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:49,894 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:50,878 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:51,862 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:32:58,466 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:32:58,962 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:32:59,669 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:33:05,107 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:33:06,277 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:33:06,809 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:34:22,818 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:34:22,818 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:34:22,841 - idrac_controller - ERROR - Failed to connect: connect() takes 1 positional argument but 4 were given
+2024-11-18 16:34:22,842 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 315, in connect
+    if self.idrac.connect(host, username, password):
+TypeError: connect() takes 1 positional argument but 4 were given
+
+2024-11-18 16:36:29,539 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:36:29,540 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:36:29,582 - idrac_controller - ERROR - Failed to connect: connect() takes 1 positional argument but 4 were given
+2024-11-18 16:36:29,582 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 270, in connect
+    if self.idrac.connect(host, username, password):
+TypeError: connect() takes 1 positional argument but 4 were given
+
+2024-11-18 16:37:55,642 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:37:55,642 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:37:55,699 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:37:55,700 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:37:56,646 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:37:56,646 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:37:59,203 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:37:59,893 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:00,385 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:05,941 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:06,614 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:07,135 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:12,750 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:13,457 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:14,486 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:14,493 - idrac_controller - DEBUG - Attempting to set fan speed: 94% (Raw value: 239)
+2024-11-18 16:38:14,494 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 239]
+2024-11-18 16:38:14,530 - idrac_controller - INFO - Successfully set fan speed to 94%
+2024-11-18 16:38:20,231 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:20,840 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:21,436 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:26,949 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:28,103 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:29,226 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:29,236 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:38:29,236 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:38:29,239 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:38:36,565 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:39,097 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:40,590 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:40,594 - idrac_controller - DEBUG - Attempting to set fan speed: 94% (Raw value: 239)
+2024-11-18 16:38:40,594 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 239]
+2024-11-18 16:38:40,608 - idrac_controller - INFO - Successfully set fan speed to 94%
+2024-11-18 16:38:47,240 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:48,665 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:49,203 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:38:54,594 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:38:55,536 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:38:56,088 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:03,214 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:05,564 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:06,254 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:11,655 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:12,341 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:12,902 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:18,299 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:19,263 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:19,804 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:25,349 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:25,999 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:26,479 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:32,743 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:34,524 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:35,790 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:42,101 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:43,659 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:45,869 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:51,596 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:52,417 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:52,959 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:39:58,437 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:39:59,418 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:39:59,958 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:05,684 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:06,290 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:06,830 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:12,298 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:13,147 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:13,630 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:19,345 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:19,982 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:20,489 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:26,146 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:26,789 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:27,545 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:33,855 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:35,744 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:37,505 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:43,290 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:43,845 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:40:44,784 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:50,912 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:51,479 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:40:52,136 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:40:57,510 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:40:58,334 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:40:58,903 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:41:04,284 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:41:05,376 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:41:06,104 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:41:11,694 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:41:12,278 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:41:12,915 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:41:12,925 - idrac_controller - DEBUG - Attempting to set fan speed: 34% (Raw value: 86)
+2024-11-18 16:41:12,925 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 86]
+2024-11-18 16:41:32,902 - idrac_controller - INFO - Successfully set fan speed to 34%
+2024-11-18 16:41:34,188 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:41:36,192 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:41:37,829 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:41:44,872 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:41:46,746 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:41:47,950 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:41:53,400 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:41:54,003 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:41:54,787 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:00,194 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:01,143 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:42:01,684 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:07,124 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:09,287 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:42:11,942 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:11,945 - idrac_controller - DEBUG - Attempting to set fan speed: 23% (Raw value: 58)
+2024-11-18 16:42:11,945 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 58]
+2024-11-18 16:42:11,952 - idrac_controller - INFO - Successfully set fan speed to 23%
+2024-11-18 16:42:17,579 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:18,164 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:42:18,926 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:24,329 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:25,270 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:42:26,269 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:32,433 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:33,573 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8286
+2024-11-18 16:42:36,739 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:43,309 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:45,170 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:42:46,886 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:52,243 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:42:52,861 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:42:53,832 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:42:59,541 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:00,153 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:00,925 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:07,799 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:08,301 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:09,041 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:14,693 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:15,232 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:16,005 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:22,364 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:23,511 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:24,103 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:30,433 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:34,082 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 9573
+2024-11-18 16:43:37,889 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:44,438 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:46,669 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:48,897 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:43:54,771 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:43:55,794 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:43:56,884 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:04,301 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:05,132 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:05,816 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:11,227 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:12,030 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:12,898 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:18,211 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:18,848 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:19,402 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:24,713 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:25,541 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:26,033 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:32,088 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:33,289 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:34,534 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:40,490 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:42,086 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:43,636 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:48,985 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:49,615 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:50,106 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:44:57,008 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:44:58,065 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:44:58,629 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:45:03,995 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:45:04,437 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:45:05,109 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:45:10,635 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:45:11,272 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:45:12,003 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:45:17,402 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:45:18,362 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:45:18,863 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:45:21,322 - idrac_controller - DEBUG - Attempting to set fan speed: 33% (Raw value: 84)
+2024-11-18 16:45:21,322 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 84]
+2024-11-18 16:45:41,941 - idrac_controller - INFO - Successfully set fan speed to 33%
+2024-11-18 16:45:42,386 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:45:43,148 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:45:44,034 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:45:50,123 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:45:55,554 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:45:56,561 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:46:02,210 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:46:02,835 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:46:04,051 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:46:07,110 - idrac_controller - DEBUG - Attempting to enable auto fan control mode
+2024-11-18 16:46:07,110 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x01]
+2024-11-18 16:46:07,113 - idrac_controller - INFO - Successfully enabled auto fan control mode
+2024-11-18 16:46:09,501 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:46:10,036 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:46:10,923 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:46:50,763 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:46:50,764 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:46:50,793 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:46:50,794 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:46:51,909 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:46:51,910 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:46:53,811 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:46:54,523 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:46:55,211 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:47:00,817 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:47:01,310 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:47:01,937 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:47:08,799 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:47:09,865 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:47:10,456 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:50:12,432 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 16:50:12,433 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 16:50:12,451 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 16:50:12,452 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 16:50:13,280 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 16:50:13,281 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 16:50:15,294 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:50:16,426 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:50:17,061 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:50:21,147 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 16:50:21,147 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x00]
+2024-11-18 16:50:21,150 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 16:50:27,331 - idrac_controller - DEBUG - Attempting to set fan speed: 57% (Raw value: 145)
+2024-11-18 16:50:27,331 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x02, 0xff, 145]
+2024-11-18 16:50:27,334 - idrac_controller - INFO - Successfully set fan speed to 57%
+2024-11-18 16:51:17,610 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 16:51:18,271 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 16:51:18,922 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 16:51:41,353 - idrac_controller - DEBUG - Attempting to enable auto fan control mode
+2024-11-18 16:51:41,353 - idrac_controller - DEBUG - Raw Command - NetFn: 0x30, Command: 0x30, Data: [0x01, 0x01]
+2024-11-18 16:52:00,402 - idrac_controller - INFO - Successfully enabled auto fan control mode
+2024-11-18 17:02:09,591 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 17:02:09,592 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:02:09,609 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:02:09,610 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:02:10,575 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:02:10,576 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 17:02:12,456 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:02:13,239 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:02:13,978 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:02:16,230 - idrac_controller - DEBUG - Attempting to enable manual fan control mode on 192.168.1.120
+2024-11-18 17:02:16,230 - idrac_controller - ERROR - Manual mode enable failed: raw_command() got an unexpected keyword argument 'bmc'
+2024-11-18 17:02:16,230 - idrac_controller - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 43, in set_manual_mode
+    result = self.ipmi.raw_command(
+TypeError: raw_command() got an unexpected keyword argument 'bmc'
+
+2024-11-18 17:03:11,319 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 17:03:11,320 - idrac_controller - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:03:11,370 - idrac_controller - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:03:11,371 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:03:12,315 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:03:12,315 - idrac_controller - INFO - Successfully connected to Redfish API.
+2024-11-18 17:03:15,372 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:03:17,215 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:03:17,737 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:03:21,134 - idrac_controller - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:03:21,140 - idrac_controller - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:03:47,088 - idrac_controller - DEBUG - Attempting to set fan speed: 42% (Raw value: 107, Hex: 0x6b)
+2024-11-18 17:03:47,091 - idrac_controller - INFO - Successfully set fan speed to 42%
+2024-11-18 17:04:18,243 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:04:18,842 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:04:19,515 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:04:28,513 - idrac_controller - DEBUG - Attempting to set fan speed: 49% (Raw value: 124, Hex: 0x7c)
+2024-11-18 17:04:28,517 - idrac_controller - INFO - Successfully set fan speed to 49%
+2024-11-18 17:05:19,911 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:05:20,587 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:05:21,156 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:06:21,867 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:06:22,339 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:06:23,246 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:07:05,819 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 17:07:05,820 - root - ERROR - IPMI initialization failed: module 'pyipmi' has no attribute 'create_interface'
+2024-11-18 17:07:05,820 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 31, in __init__
+    self.interface = pyipmi.create_interface('lan')
+AttributeError: module 'pyipmi' has no attribute 'create_interface'
+
+2024-11-18 17:07:05,820 - idrac_controller - ERROR - Failed to connect: module 'pyipmi' has no attribute 'create_interface'
+2024-11-18 17:07:05,821 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 227, in connect
+    self.ipmi = IPMIController(host, username, password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 31, in __init__
+    self.interface = pyipmi.create_interface('lan')
+AttributeError: module 'pyipmi' has no attribute 'create_interface'
+
+2024-11-18 17:08:13,599 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 17:08:13,600 - root - ERROR - IPMI initialization failed: module 'pyipmi' has no attribute 'connect'
+2024-11-18 17:08:13,600 - root - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 35, in __init__
+    self.ipmi = pyipmi.connect(
+AttributeError: module 'pyipmi' has no attribute 'connect'
+
+2024-11-18 17:08:13,600 - idrac_controller - ERROR - Failed to connect: module 'pyipmi' has no attribute 'connect'
+2024-11-18 17:08:13,600 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 222, in connect
+    self.ipmi = IPMIController(host, username, password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 35, in __init__
+    self.ipmi = pyipmi.connect(
+AttributeError: module 'pyipmi' has no attribute 'connect'
+
+2024-11-18 17:13:59,802 - idrac_controller - INFO - Attempting to establish connection
+2024-11-18 17:13:59,803 - root - ERROR - IPMI initialization failed: module 'pyipmi' has no attribute 'ipmi_connection'
+2024-11-18 17:13:59,803 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 33, in __init__
+    self.ipmi = pyipmi.ipmi_connection(
+AttributeError: module 'pyipmi' has no attribute 'ipmi_connection'
+
+2024-11-18 17:13:59,803 - idrac_controller - ERROR - Failed to connect: module 'pyipmi' has no attribute 'ipmi_connection'
+2024-11-18 17:13:59,803 - idrac_controller - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 210, in connect
+    self.ipmi = IPMIController(host, username, password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 33, in __init__
+    self.ipmi = pyipmi.ipmi_connection(
+AttributeError: module 'pyipmi' has no attribute 'ipmi_connection'
+
+2024-11-18 17:20:28,272 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:20:28,273 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:20:28,318 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:20:28,319 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:20:30,538 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:20:30,539 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:20:32,559 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:20:34,573 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:20:36,387 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:20:41,522 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:20:41,529 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:20:48,497 - __main__ - DEBUG - Attempting to set fan speed: 82% (Raw value: 209, Hex: 0xd1)
+2024-11-18 17:20:48,501 - __main__ - ERROR - Failed to set fan speed: Response code 204
+2024-11-18 17:21:37,853 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:21:37,854 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:21:37,892 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:21:37,893 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:21:41,002 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:21:41,002 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:21:43,944 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:21:45,591 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:21:46,401 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:21:50,758 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:21:50,762 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:21:57,048 - __main__ - DEBUG - Attempting to set fan speed: 57% (Raw value: 145, Hex: 0x91)
+2024-11-18 17:21:57,051 - __main__ - ERROR - Failed to set fan speed: Response code 204. This may indicate a permissions or communication issue.
+2024-11-18 17:22:47,056 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:22:47,521 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:22:48,260 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:23:08,236 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:23:08,236 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:23:08,253 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:23:08,254 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:23:09,166 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:23:09,166 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:23:12,721 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:23:13,318 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:23:14,048 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:23:16,153 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:23:16,162 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:23:21,467 - __main__ - DEBUG - Attempting to set fan speed: 47% (Raw value: 119, Hex: 0x77)
+2024-11-18 17:23:21,470 - __main__ - ERROR - Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:23:21,470 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:24:14,555 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:24:15,342 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:24:16,115 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:25:37,739 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:25:37,739 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:25:37,827 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:25:37,828 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:25:40,389 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:25:40,390 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:25:42,709 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:25:43,563 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:25:44,133 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:25:46,547 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:25:46,557 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:25:57,602 - __main__ - DEBUG - Attempting to set fan speed: 53% (Raw value: 135, Hex: 0x87)
+2024-11-18 17:25:57,602 - __main__ - DEBUG - Waiting for 2 seconds to ensure manual mode is properly enabled
+2024-11-18 17:25:59,605 - __main__ - ERROR - Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:25:59,605 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:26:44,795 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:26:45,406 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:26:46,139 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:27:41,472 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:27:41,472 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:27:41,504 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:27:41,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:27:43,429 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:27:43,430 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:27:45,180 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:27:45,727 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:27:46,325 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:27:50,294 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:27:50,297 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:27:57,544 - __main__ - DEBUG - Attempting to set fan speed: 67% (Raw value: 170, Hex: 0xaa)
+2024-11-18 17:27:57,544 - __main__ - DEBUG - Waiting for 5 seconds to ensure manual mode is properly enabled
+2024-11-18 17:28:02,547 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:28:02,547 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:28:02,547 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:28:04,551 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:28:04,551 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:28:04,551 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:28:06,564 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:28:06,564 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:28:06,564 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 17:28:46,726 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:28:47,303 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:28:48,296 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:29:48,939 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:29:49,446 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:29:52,577 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:30:31,154 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:30:31,154 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:30:31,244 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:30:31,245 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:30:33,051 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:30:33,052 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:30:35,705 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:30:37,219 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:30:39,084 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:30:42,542 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:30:42,546 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:30:50,879 - __main__ - DEBUG - Attempting to set fan speed: 52% (Raw value: 132, Hex: 0x84)
+2024-11-18 17:30:50,879 - __main__ - DEBUG - Waiting for 10 seconds to ensure manual mode is properly enabled
+2024-11-18 17:31:00,879 - __main__ - DEBUG - Verifying if manual fan control mode is active
+2024-11-18 17:31:00,884 - __main__ - ERROR - Manual fan control mode verification failed: Response code 199 or unexpected data
+2024-11-18 17:31:00,884 - __main__ - ERROR - Manual fan control mode is not active. Aborting fan speed set operation.
+2024-11-18 17:31:41,062 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:31:42,657 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:31:44,223 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:32:42,347 - __main__ - DEBUG - Attempting to set fan speed: 52% (Raw value: 132, Hex: 0x84)
+2024-11-18 17:32:42,347 - __main__ - DEBUG - Waiting for 10 seconds to ensure manual mode is properly enabled
+2024-11-18 17:32:52,347 - __main__ - DEBUG - Verifying if manual fan control mode is active
+2024-11-18 17:33:13,042 - __main__ - ERROR - Manual fan control mode verification failed: Response code 199 or unexpected data
+2024-11-18 17:33:13,042 - __main__ - ERROR - Manual fan control mode is not active. Aborting fan speed set operation.
+2024-11-18 17:33:13,043 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 192.168.1.120
+2024-11-18 17:33:14,041 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:33:14,886 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:33:16,353 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:33:28,090 - __main__ - DEBUG - Attempting to set fan speed: 52% (Raw value: 132, Hex: 0x84)
+2024-11-18 17:33:28,090 - __main__ - DEBUG - Waiting for 10 seconds to ensure manual mode is properly enabled
+2024-11-18 17:33:38,090 - __main__ - DEBUG - Verifying if manual fan control mode is active
+2024-11-18 17:33:38,093 - __main__ - ERROR - Manual fan control mode verification failed: Response code 199 or unexpected data
+2024-11-18 17:33:38,093 - __main__ - ERROR - Manual fan control mode is not active. Aborting fan speed set operation.
+2024-11-18 17:34:13,605 - __main__ - DEBUG - Attempting to enable auto fan control mode
+2024-11-18 17:34:13,608 - __main__ - INFO - Successfully enabled auto fan control mode
+2024-11-18 17:34:16,895 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:34:17,524 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:34:18,480 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:36:09,916 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:36:09,916 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:36:09,940 - __main__ - ERROR - IPMI initialization failed: Incorrect password provided
+2024-11-18 17:36:09,945 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in __init__
+    self.ipmi = command.Command(bmc=host, userid=username, password=password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\venv\lib\site-packages\pyghmi\ipmi\command.py", line 180, in __init__
+    self.ipmi_session = session.Session(bmc=bmc,
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\venv\lib\site-packages\pyghmi\ipmi\private\session.py", line 562, in __init__
+    raise exc.IpmiException(self.errormsg)
+pyghmi.exceptions.IpmiException: Incorrect password provided
+
+2024-11-18 17:36:09,945 - __main__ - ERROR - Failed to connect: Incorrect password provided
+2024-11-18 17:36:09,945 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 262, in connect
+    self.ipmi = IPMIController(host, username, password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in __init__
+    self.ipmi = command.Command(bmc=host, userid=username, password=password)
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\venv\lib\site-packages\pyghmi\ipmi\command.py", line 180, in __init__
+    self.ipmi_session = session.Session(bmc=bmc,
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\venv\lib\site-packages\pyghmi\ipmi\private\session.py", line 562, in __init__
+    raise exc.IpmiException(self.errormsg)
+pyghmi.exceptions.IpmiException: Incorrect password provided
+
+2024-11-18 17:36:24,280 - __main__ - INFO - Attempting to establish connection
+2024-11-18 17:36:24,281 - __main__ - INFO - Initializing IPMI connection to 192.168.1.120
+2024-11-18 17:36:24,301 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 17:36:24,302 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 17:36:28,812 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 17:36:28,813 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 17:36:32,855 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:36:33,929 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:36:35,390 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:36:39,836 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 17:36:39,840 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 17:36:49,127 - __main__ - DEBUG - Attempting to set fan speed: 58% (Raw value: 147, Hex: 0x93)
+2024-11-18 17:36:49,131 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:36:49,131 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:36:49,131 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:36:51,136 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:36:51,136 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:36:51,136 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:36:53,140 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:36:53,140 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:36:53,140 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 17:37:31,075 - __main__ - DEBUG - Attempting to set fan speed: 58% (Raw value: 147, Hex: 0x93)
+2024-11-18 17:37:31,078 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:31,078 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:31,078 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:37:33,081 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:33,081 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:33,081 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:37:35,085 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:35,085 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:35,085 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 17:37:36,579 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:37:38,737 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:37:40,053 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:37:53,718 - __main__ - DEBUG - Attempting to set fan speed: 58% (Raw value: 147, Hex: 0x93)
+2024-11-18 17:37:53,721 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:53,721 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:53,721 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:37:55,726 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:55,726 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:55,726 - __main__ - DEBUG - Retrying in 2 seconds...
+2024-11-18 17:37:57,733 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed: Response code 204. This may indicate a permissions issue or that the command is unsupported.
+2024-11-18 17:37:57,733 - __main__ - DEBUG - Please ensure that your user has sufficient privileges and that the manual fan mode is enabled.
+2024-11-18 17:37:57,733 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 17:38:41,446 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:38:43,285 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:38:44,233 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 17:39:44,674 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 17:39:45,260 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 17:39:45,842 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:01:35,172 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:01:35,172 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:01:35,173 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:01:40,547 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:01:40,547 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:01:42,902 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:01:43,503 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:01:44,297 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:01:46,358 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:01:46,359 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:01:46,359 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:01:46,361 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:01:46,361 - __main__ - ERROR - Failed to enable manual fan control mode
+2024-11-18 18:02:44,693 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:02:45,299 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:02:45,876 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:02:54,898 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:02:54,898 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:02:54,899 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:02:56,341 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:02:56,342 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:02:59,813 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:03:00,947 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:03:01,555 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:03:03,156 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:03:03,156 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\tools/ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:03:03,157 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:03:03,158 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:03:03,158 - __main__ - ERROR - Failed to enable manual fan control mode
+2024-11-18 18:04:01,883 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:04:01,883 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:04:01,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:04:02,868 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:04:02,869 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:04:04,853 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:04:05,415 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:04:05,971 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:04:07,330 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:04:07,330 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:04:07,396 - __main__ - ERROR - Command failed with return code 3221225781: 
+2024-11-18 18:04:07,396 - __main__ - ERROR - Failed to enable manual fan control mode
+2024-11-18 18:05:06,675 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:05:08,728 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:05:10,797 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:06:11,202 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:06:11,795 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:06:12,342 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:10:16,676 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:10:16,676 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:10:16,677 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:10:17,521 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:10:17,522 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:10:20,526 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:10:22,258 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 15873
+2024-11-18 18:10:24,919 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 7586
+2024-11-18 18:10:39,488 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:10:39,488 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:10:39,594 - __main__ - DEBUG - Command output: 
+2024-11-18 18:10:39,595 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:10:47,384 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 255, Hex: 0xff)
+2024-11-18 18:10:47,384 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 255
+2024-11-18 18:10:47,485 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:10:47,485 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed. Retrying...
+2024-11-18 18:10:49,486 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 255
+2024-11-18 18:10:49,637 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:10:49,637 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed. Retrying...
+2024-11-18 18:10:51,637 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 255
+2024-11-18 18:10:51,737 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:10:51,737 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed. Retrying...
+2024-11-18 18:10:53,738 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 18:11:25,347 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:11:25,919 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:11:27,063 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:12:07,663 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:12:07,664 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:12:07,665 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:12:09,078 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:12:09,079 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:12:11,359 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:12:12,132 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:12:12,938 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:12:18,625 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:12:18,625 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:12:18,625 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:12:18,626 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:12:18,627 - __main__ - ERROR - Failed to enable manual fan control mode
+2024-11-18 18:12:35,397 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 255, Hex: 0xff)
+2024-11-18 18:12:35,397 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:12:35,398 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:12:35,398 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:12:35,398 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed. Retrying...
+2024-11-18 18:12:37,398 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:12:37,398 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:12:37,398 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:12:37,399 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed. Retrying...
+2024-11-18 18:12:39,400 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\tools\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:12:39,400 - __main__ - ERROR - Command execution failed: [WinError 2] The system cannot find the file specified
+2024-11-18 18:12:39,400 - __main__ - ERROR - Full error traceback:
+Traceback (most recent call last):
+  File "C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\main.py", line 47, in run_ipmitool_command
+    result = subprocess.run(command, capture_output=True, text=True)
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\KOSTASLAB\AppData\Local\Programs\Python\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2024-11-18 18:12:39,400 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed. Retrying...
+2024-11-18 18:12:41,401 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 18:13:19,004 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:13:19,004 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:13:19,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:13:19,906 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:13:19,906 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:13:22,271 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:13:23,163 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:13:23,896 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:13:26,238 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:13:26,238 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:13:26,367 - __main__ - DEBUG - Command output: 
+2024-11-18 18:13:26,367 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:13:31,050 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 255, Hex: 0xff)
+2024-11-18 18:13:31,050 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:13:31,151 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:13:31,151 - __main__ - ERROR - Attempt 1/3: Failed to set fan speed. Retrying...
+2024-11-18 18:13:33,151 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:13:33,276 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:13:33,276 - __main__ - ERROR - Attempt 2/3: Failed to set fan speed. Retrying...
+2024-11-18 18:13:35,277 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0xff
+2024-11-18 18:13:35,419 - __main__ - ERROR - Command failed with return code 1: Unable to send RAW command (channel=0x0 netfn=0x30 lun=0x0 cmd=0x30 rsp=0xcc): Invalid data field in request
+2024-11-18 18:13:35,419 - __main__ - ERROR - Attempt 3/3: Failed to set fan speed. Retrying...
+2024-11-18 18:13:37,419 - __main__ - ERROR - Exceeded maximum retries to set fan speed. Operation failed.
+2024-11-18 18:15:12,508 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:15:12,508 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:15:12,509 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:15:13,511 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:15:13,511 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:15:15,722 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:15:16,341 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:15:16,877 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:15:19,904 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:15:19,904 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:15:20,003 - __main__ - DEBUG - Command output: 
+2024-11-18 18:15:20,003 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:15:24,768 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 0x64, Hex: 0x64)
+2024-11-18 18:19:54,219 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:19:54,220 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:19:54,220 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:19:55,035 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:19:55,036 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:19:58,912 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:19:59,706 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:20:00,311 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:20:02,001 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:20:02,001 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:20:02,106 - __main__ - DEBUG - Command output: 
+2024-11-18 18:20:02,107 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:20:07,388 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 0x64, Hex: 0x64)
+2024-11-18 18:20:07,388 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x64
+2024-11-18 18:20:07,471 - __main__ - DEBUG - Command output: 
+2024-11-18 18:20:07,471 - __main__ - INFO - Successfully set fan speed to 100%
+2024-11-18 18:20:15,593 - __main__ - DEBUG - Attempting to set fan speed: 55% (Raw value: 0x37, Hex: 0x37)
+2024-11-18 18:20:15,594 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x37
+2024-11-18 18:20:15,682 - __main__ - DEBUG - Command output: 
+2024-11-18 18:20:15,682 - __main__ - INFO - Successfully set fan speed to 55%
+2024-11-18 18:20:21,240 - __main__ - DEBUG - Attempting to set fan speed: 25% (Raw value: 0x19, Hex: 0x19)
+2024-11-18 18:20:21,240 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x19
+2024-11-18 18:20:21,338 - __main__ - DEBUG - Command output: 
+2024-11-18 18:20:21,338 - __main__ - INFO - Successfully set fan speed to 25%
+2024-11-18 18:21:00,315 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 192.168.1.120
+2024-11-18 18:21:01,749 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:21:02,332 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:21:02,885 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:25:10,358 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:25:10,358 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:25:10,359 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:25:13,301 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:25:13,301 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:25:15,478 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:25:16,311 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:25:17,443 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:25:20,737 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:25:20,738 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:25:20,840 - __main__ - DEBUG - Command output: 
+2024-11-18 18:25:20,840 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:25:46,733 - __main__ - DEBUG - Attempting to set fan speed: 100% (Raw value: 0x64, Hex: 0x64)
+2024-11-18 18:25:46,734 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x64
+2024-11-18 18:25:46,850 - __main__ - DEBUG - Command output: 
+2024-11-18 18:25:46,850 - __main__ - INFO - Successfully set fan speed to 100%
+2024-11-18 18:25:53,375 - __main__ - DEBUG - Attempting to set fan speed: 27% (Raw value: 0x1b, Hex: 0x1b)
+2024-11-18 18:25:53,375 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x1b
+2024-11-18 18:25:53,550 - __main__ - DEBUG - Command output: 
+2024-11-18 18:25:53,550 - __main__ - INFO - Successfully set fan speed to 27%
+2024-11-18 18:27:36,013 - __main__ - INFO - Attempting to establish connection
+2024-11-18 18:27:36,013 - __main__ - INFO - Connecting to iDRAC at 192.168.1.120 using Redfish API...
+2024-11-18 18:27:36,014 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 192.168.1.120:443
+2024-11-18 18:27:38,076 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1 HTTP/11" 200 1257
+2024-11-18 18:27:38,076 - __main__ - INFO - Successfully connected to Redfish API.
+2024-11-18 18:27:40,773 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/ HTTP/11" 200 396
+2024-11-18 18:27:41,371 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Chassis/System.Embedded.1/Thermal HTTP/11" 200 8280
+2024-11-18 18:27:41,893 - urllib3.connectionpool - DEBUG - https://192.168.1.120:443 "GET /redfish/v1/Systems/System.Embedded.1 HTTP/11" 200 6940
+2024-11-18 18:27:45,815 - __main__ - DEBUG - Attempting to enable manual fan control mode
+2024-11-18 18:27:45,815 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x01 0x00
+2024-11-18 18:27:45,899 - __main__ - DEBUG - Command output: 
+2024-11-18 18:27:45,899 - __main__ - INFO - Successfully enabled manual fan control mode
+2024-11-18 18:27:49,773 - __main__ - DEBUG - Attempting to set fan speed: 63% (Raw value: 0x3f, Hex: 0x3f)
+2024-11-18 18:27:49,773 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x3f
+2024-11-18 18:27:50,133 - __main__ - DEBUG - Command output: 
+2024-11-18 18:27:50,134 - __main__ - INFO - Successfully set fan speed to 63%
+2024-11-18 18:27:55,902 - __main__ - DEBUG - Attempting to set fan speed: 23% (Raw value: 0x17, Hex: 0x17)
+2024-11-18 18:27:55,902 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x17
+2024-11-18 18:27:56,031 - __main__ - DEBUG - Command output: 
+2024-11-18 18:27:56,031 - __main__ - INFO - Successfully set fan speed to 23%
+2024-11-18 18:27:59,811 - __main__ - DEBUG - Attempting to set fan speed: 26% (Raw value: 0x1a, Hex: 0x1a)
+2024-11-18 18:27:59,811 - __main__ - DEBUG - Running command: C:\Users\KOSTASLAB\Documents\CODING PROJECTS\pycharm projects\idrac\ipmitool.exe -I lanplus -H 192.168.1.120 -U root -P calvin raw 0x30 0x30 0x02 0xff 0x1a
+2024-11-18 18:27:59,927 - __main__ - DEBUG - Command output: 
+2024-11-18 18:27:59,927 - __main__ - INFO - Successfully set fan speed to 26%
